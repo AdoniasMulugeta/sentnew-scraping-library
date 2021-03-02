@@ -17,9 +17,12 @@
     "automation"
   ],
   "author": "adonias mulugeta",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/AdoniasMulugeta/sentnew-scraping-library/issues"
   },
-  "homepage": "https://github.com/AdoniasMulugeta/sentnew-scraping-library#readme"
+  "homepage": "https://github.com/AdoniasMulugeta/sentnew-scraping-library#readme",
+  "dependencies": {
+    "@mtproto/core": "^5.3.0"
+  }
 }
