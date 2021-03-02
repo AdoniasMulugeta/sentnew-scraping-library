@@ -1,0 +1,25 @@
+{
+  "name": "telegram-scraper",
+  "version": "1.0.0",
+  "description": "telegram scraper nodejs application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdoniasMulugeta/sentnew-scraping-library.git"
+  },
+  "keywords": [
+    "telegam",
+    "scraper",
+    "api",
+    "automation"
+  ],
+  "author": "adonias mulugeta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdoniasMulugeta/sentnew-scraping-library/issues"
+  },
+  "homepage": "https://github.com/AdoniasMulugeta/sentnew-scraping-library#readme"
+}
