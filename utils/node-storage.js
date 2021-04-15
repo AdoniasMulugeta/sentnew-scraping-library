@@ -79,7 +79,7 @@ const getDialogs = async () => {
 
 // First check if we are already signed in (if credentials are stored). If we
 // are logged in, execution continues, otherwise the login process begins.
-checkLogin = async function() {
+const checkLogin = async function() {
 	if (!(await app.storage.get('signedin'))) {
     console.log('not signed in')
 

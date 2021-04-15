@@ -1,5 +1,18 @@
-require('dotenv').config();
+console.info(`
+ +-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+
+ |t|e|l|e|g|r|a|m| |s|c|r|a|p|e|r|
+ +-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+
+ `)
 
+require('dotenv').config();
+console.log = (toLog) => {
+    if (toLog.message) console.info(toLog.message);
+    console.info(toLog);
+};
+console.error = (toLog) => {
+    if (toLog.message) console.info(toLog.message);
+    console.info(toLog);
+}
 const config = {
     telegram: {
         id: process.env.TELEGRAM_APP_ID,
