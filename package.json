@@ -1,0 +1,30 @@
+{
+  "name": "telegram-channel-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdhass/telegram-scraper.git"
+  },
+  "author": "abdhass",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.1",
+    "mtproto-storage-fs": "^0.3.1",
+    "node-fetch": "^2.6.1",
+    "prompt": "^1.0.0",
+    "ramda": "^0.25.0",
+    "telegram-mtproto": "^2.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
